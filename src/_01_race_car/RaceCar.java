@@ -4,7 +4,7 @@ package _01_race_car;
  *    Level 1
  */
 
-
+import java.util.Random;
 
 public class RaceCar {
 	private String brand;
@@ -25,6 +25,7 @@ public class RaceCar {
 		
 		this.brand = brand;
 		this.positionInRace = positionInRace;
+		Random rand = new Random () ;
 	}
 	
 	public int getPositionInRace() {
@@ -75,5 +76,15 @@ public class RaceCar {
 			positionInRace--;
 			System.out.println("Your car has moved into position number "+positionInRace+"!");
 		}
+	}
+
+	public RaceCar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void RaceCar() {
+		// TODO Auto-generated method stub
+		
 	}
 }

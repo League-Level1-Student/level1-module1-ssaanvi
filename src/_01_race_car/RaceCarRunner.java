@@ -9,9 +9,9 @@ package _01_race_car;
 public class RaceCarRunner {
 	public static void main(String[] args) {
 		/* Do the following things without changing the RaceCar class */
-		
+		RaceCar racer = new RaceCar ("Toyota presents...the racer!!", 5) ;
 		// 1. Create a RaceCar and place it in 5th position
-	
+	racer.RaceCar();
 		// 2. Print the RaceCar's position in the race
 
 		// 3. Crash the RaceCar
