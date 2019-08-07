@@ -1,6 +1,10 @@
 package _02_cat;
+
+import java.util.Random;
+
 /*
- *    Copyright (c) The League of Amazing Programmers 2013-2019
+ *    
+Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
  */
 
@@ -8,7 +12,7 @@ package _02_cat;
 	
 		* Create a CatRunner class in the cat package, with a main method that creates a Cat object.
 
-        * 1. Make the Cat meow
+        * 1. Make the Cat
 		
 		* 2. Get the Cat to print it's name
 
@@ -25,6 +29,8 @@ public class Cat {
 	Cat(String name) {
 		this.name = name;
 	}
+
+
 
 	void meow() {
 		System.out.println("meeeeeooooooooooowwwwwwwww!!");
@@ -47,6 +53,7 @@ public class Cat {
 			System.out.println("DEAD CAT :(");
 	}
 
+Random rand = new Random () ;
 
 }
 
