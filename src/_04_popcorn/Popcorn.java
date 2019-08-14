@@ -17,7 +17,7 @@ class Microwave {
 	private int cookTime;
 	Popcorn thingToBeCooked;
 
-	Microwave() {
+Microwave () {
 		System.out.println("Microwave says: a Microwave has been made.");
 	}
 
@@ -49,7 +49,7 @@ public class Popcorn {
 	private String flavor;
 	private boolean isCooked = false;
 
-	Popcorn(String flavor) {
+	Popcorn() {
 		this.flavor = flavor;
 		System.out.println("Popcorn says: making package of " + this.flavor + " popcorn.");
 	}
@@ -80,6 +80,28 @@ public class Popcorn {
 			e.printStackTrace();
 		}
 	}
+
+	public void startMicrowave() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setTime() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void putInMircowave() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void isCooked() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 	
 }
 

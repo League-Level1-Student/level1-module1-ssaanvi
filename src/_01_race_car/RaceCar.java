@@ -70,7 +70,7 @@ public class RaceCar {
 	 * Overtakes the next car in the race.
 	 */
 	public void overtake() {
-		if (positionInRace <= 1)
+		if (positionInRace == 1)
 			System.out.println("The car is already in the lead.");
 		else {
 			positionInRace--;
